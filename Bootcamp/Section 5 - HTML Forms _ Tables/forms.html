@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS DEMO</title>
+</head>
+<body>
+    <h1>Forms Tab</h1>
+
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a Username: </label>
+            <input type="text" placeholder="Username" id="username" name="username">
+        </p>
+        <p>
+            <label for="password">Password: </label>
+            <input type="password" placeholder="Password" id="password" name="password">
+        </p>
+        <p>
+            <label for="color">Enter a color: </label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="number">Enter a number: </label>
+            <input type="number" placeholder="Enter a Number" id="number" name="number">
+        </p>
+
+        <button type="button">Submit</button>
+        <input type="submit" value="Click">
+    </form>
+    <button>Not inside Form</button>
+
+    <form action="https://www.reddit.com/search">
+        <p>
+            <label for="reddit">Search Reddit: </label>
+            <input type="text" id="reddit" name="q">
+        </p>
+    </form>
+    <form action="https://www.google.com/search">
+        <p>
+            <input type="text" name="q">
+            <!-- button inside for default submits -->
+            <button>Search Google</button>
+        </p>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <p>
+            <input type="text" name="search_query">
+            <button>Search YouTube</button>
+        </p>
+    </form>
+
+    <br>
+    <br>
+
+    <form action="/birds">
+        <h2>More Inputs:</h2>
+        <input type="checkbox" id="checker" name="namer" checked>
+        <label for="checker">Check</label>
+        <input type="submit">
+        <p>
+            <span>Size: </span>
+            <input type="radio" name="size" id="small" value="small">
+            <label for="small">small</label>
+            <input type="radio" name="size" id="medium" value="medium">
+            <label for="medium">medium</label>
+            <input type="radio" name="size" id="big" value="big">
+            <label for="big">big</label>
+            <button>Submit Size</button>
+        </p>
+        <p>
+            <h3>Select a Meal:</h3>
+            <select name="meal" id="meal">
+                <option value="">Choose</option>
+                <option value="chicken">Chicken</option>
+                <option value="steak">Steak</option>
+                <option value="salad">Salad</option>
+            </select>
+        </p>
+        <button>Submit</button>    
+        <p>
+            <h2>Range Mama</h2>
+            <input type="range" name="cheese" id="cheese" min='1' max='101' step='3'>
+            <label for="cheese">Amount of Cheese</label>
+        </p>
+        <button>Submit</button>
+
+        <p>
+            <h2>Paragraph Guy:</h2>
+            <label for="requests">Any Special Requests?</label>
+            <br>
+            <textarea name="request" id="requests" cols="30" rows="10" placeholder="Type here"></textarea>
+            <br>
+            <button>Submit</button>
+        </p>
+    </form>
+    <form action="/dummy">
+        <h2>Validations Demo</h2>
+        <p>
+            <label for="first">First Name:</label>
+            <input type="text" name="first" id="first" placeholder="Type here" required>
+        </p>
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" minlength='5' maxlength="13">
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            <label for="url">Website: </label>
+            <input type="url" name="url" id="url" required>
+        </p>
+        <p>
+            <label for="phone">Phone: </label>
+            <input type="tel" name="phone" id="phone" required>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
