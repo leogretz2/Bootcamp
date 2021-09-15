@@ -1,0 +1,15 @@
+body {
+    color: purple;
+}
+
+section {
+    color: turquoise;
+}
+
+form {
+    color: limegreen;
+}
+
+h2, button {
+    color: inherit;
+}
