@@ -1,0 +1,17 @@
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+.container {
+    border: 2px solid black;
+    width: 509px;
+    margin:auto;
+}
+
+.title {
+    border-bottom: 2px solid black;
+}

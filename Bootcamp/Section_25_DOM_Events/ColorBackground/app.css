@@ -1,0 +1,12 @@
+body {
+    background: rgb(2,255,6)
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: flex;
+    margin: auto;
+}
