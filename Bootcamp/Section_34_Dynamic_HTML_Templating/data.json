@@ -1,0 +1,49 @@
+{
+    "soccer": {
+        "name": "Soccer",
+        "subscribers": 800000,
+        "description": "The football subreddit. News, results and discussion",
+        "posts": [
+            {
+                "title": "Marten de Roon to make pizza for more than 1,000 people.",
+                "author": "joeextreme"
+            },
+            {
+                "title": "Stephen Lictsteiner has retired from professional football",
+                "author": "odd person"
+            },
+            {
+                "title": "OFFICIAL: Dani Parejo signs for Villareal",
+                "author": "joeextreme"
+            }
+        ]
+    },
+    "chickens": {
+        "name": "Chickens",
+        "subscribers": 100000,
+        "description": "Chicken subreddit",
+        "posts": [
+            {
+                "title": "asdfsadf",
+                "author": "chick",
+                "img": "https://preview.redd.it/xxvczbojz7ba1.jpg?width=640&crop=smart&auto=webp&v=enabled&s=5115c4bfccff5eb02359dc934444b896c74cb9ae"
+            }
+        ]
+    },
+    "mightyharvest": {
+        "name": "Mighty Harvest",
+        "subscribers": 2345246000,
+        "description": "Feeding many villages and village idiots for 10s of days",
+        "posts": [
+            {
+                "title": "My first meyer lemon ripened today. I'm so proud of the little guy. Banana for scale",
+                "author": "farmr2",
+                "img": "https://preview.redd.it/r79aw4j0fuaa1.jpg?width=640&crop=smart&auto=webp&v=enabled&s=0c7c00ba7aba6067d2b3a96c315a5c4ac04535cd"
+            },
+            {
+                "title": "I think I overestimated the harvest basket size I needed.",
+                "author": "bithcass"
+            }
+        ]
+    }
+}
